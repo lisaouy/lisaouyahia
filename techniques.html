@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Présentation des techniques aspects techniques du projet."/> 
+    <title>Simulation Bêtes - Techniques</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="icon" type="image/jpeg" href="images/ladybugR.png"/>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/ladybugR.png" alt="Logo Simulation Bêtes" class="logo"/>
+        </a>
+        <h1>Réalisation technique</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projet.html">Le Projet</a></li>
+                <li><a href="conception.html">Conception</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="techniques.html">Techniques</a></li>
+                <li><a href="resultats.html">Résultats</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="left-menu">
+            <ul>
+                <li><a href="#language">Langages et Outils Utilisés</a></li>
+                <li><a href="#explications">Explication de l'Interface</a></li>
+                <li><a href="#gestion">Gestion des Performances</a></li>
+                <li><a href="#illust">Illustrations</a></li>
+            </ul>
+        </div>
+
+        <section id="language">
+            <h2>Langages et Outils Utilisés</h2>
+            <ol>
+                <li><b>Java : </b>Utilisé pour implémenter la simulation. Java est un langage de programmation orienté objet largement utilisé dans de nombreux domaines, dont la simulation. En raison de sa portabilité et de sa robustesse, Java est souvent privilégié pour implémenter des simulations complexes, qu'elles soient utilisées dans les systèmes embarqués, les applications financières, ou même les simulations physiques et scientifiques.
+                    <figure>
+                        <img src="images/java.png" alt="java logo"/>
+                    </figure>
+                    <p>- Si vous souhaitez en sevoir plus sur Java, je vous invite a cliquer sur ce lien : <a href="https://www.google.com/search?q=programmation+Java" target="_blank">Rechercher "programmation Java" sur Google</a></p>               
+                </li>  
+
+                <li><b>Swing : </b>Permet de créer l'interface graphique. Swing est non seulement utilisé pour créer des interfaces graphiques (GUI) robustes et multiplateformes, mais il est également très adapté pour des applications de simulation, en particulier pour la visualisation et l'interaction avec des modèles simulés. Lorsqu'il s'agit de visualiser des processus dynamiques ou de simuler des systèmes complexes, **Swing** permet de créer des interfaces qui permettent aux utilisateurs d'interagir avec la simulation en temps réel.
+                    <figure>
+                        <img src="images/swing.jpg" alt="swing logo java"/>
+                    </figure>
+                    <p>Pour apprendre Java Swing, consultez cette ressource utile : <a href="https://docs.oracle.com/javase/tutorial/uiswing/" target="_blank">Java Swing Tutorial - Oracle</a></p>                      
+                </li>
+                    
+                <li><b>HTML/CSS : </b>Utilisés pour le développement du site web accompagnant le projet.
+                    <ul>
+                        <li>HTML (HyperText Markup Language) est utilisé pour structurer le contenu de la page web. Il définit les éléments essentiels comme les titres, les paragraphes, les liens, les images, les formulaires, et plus encore.</li>
+                        <li>CSS (Cascading Style Sheets) est utilisé pour définir l'apparence de ces éléments. Il permet de styliser les pages avec des couleurs, des polices, des mises en page, des animations, etc.</li>
+                    </ul>
+                    <p>- Pour apprendre HTML et CSS, consultez cette ressource utile : <a href="https://www.w3schools.com/" target="_blank">W3Schools - Learn HTML, CSS, JavaScript</a></p>
+                </li>
+                
+            </ol>
+        </section>
+
+        <section id="explications">
+            <h2>Explication de l'Interface</h2>
+            <p>L'interface utilisateur offre les fonctionnalités suivantes :</p>
+            <ul>
+                <li>La possibilité de choisir la taille de la grille pour la simulation.</li>
+                <li>La configuration du nombre de bêtes présentes dans l'environnement.</li>
+                <li>L'ajout ou la suppression d'obstacles qui influencent le comportement des bêtes.</li>
+            </ul>
+        </section>
+
+        <section id="gestion">
+            <h2>Gestion des Performances</h2>
+            <p>Pour assurer des performances optimales, plusieurs optimisations ont été réalisées :</p>
+            <ul>
+                <li>Utilisation d'une gestion efficace des threads pour exécuter les actions des bêtes en parallèle.</li>
+                <li>Réduction du nombre d'objets actifs en mémoire pour limiter la consommation de ressources.</li>
+                <li>Implémentation d'une mise à jour différée pour diminuer les calculs en temps réel.</li>
+            </ul>
+        </section>
+
+        <section id="illust">
+            <h2>Illustrations</h2>
+            <p>Des images de l'interface graphique et des extraits de code sont utilisés pour présenter les détails techniques du projet.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div>2025 Simulation Bêtes | Projet réalisé par Lisa Ouyahia &amp; Ines Yousfi</div>
+        <nav>
+            <a href="index.html">1</a>
+            <a href="projet.html">2</a>
+            <a href="conception.html">3</a>
+            <a href="equipe.html">4</a>
+            <a href="techniques.html">5</a>
+            <a href="resultats.html">6</a>
+        </nav>
+    </footer>
+    
+</body>
+</html>

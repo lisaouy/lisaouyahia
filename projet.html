@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Présentation détaillée du projet Simulation Bêtes."/>
+    <title>Simulation Bêtes - Le Projet</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="icon" type="image/jpeg" href="images/ladybugR.png"/>
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <img src="images/ladybugR.png" alt="Logo Simulation Bêtes" class="logo"/>
+        </a>
+        <h1>Le Projet</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projet.html">Le Projet</a></li>
+                <li><a href="conception.html">Conception</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="techniques.html">Techniques</a></li>
+                <li><a href="resultats.html">Résultats</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="left-menu">
+            <ul>
+                <li><a href="#projpres">Présentation du projet</a></li>
+                <li><a href="#caract">Les bêtes et leurs caractéristiques</a></li>
+                <li><a href="#envirdyna">Un environnement dynamique</a></li>
+                <li><a href="#mecasimu">Les mécanismes de la simulation</a></li>
+                <li><a href="#role">Rôle de l’utilisateur</a></li>
+            </ul>
+        </div>
+
+        <section id="projpres">
+            <h2>Présentation du projet</h2>
+            <p>Simulation Bêtes est un projet développé dans le cadre du module de Génie Logiciel. Il vise à modéliser un écosystème où des entités autonomes, appelées "bêtes", évoluent dans un environnement dynamique, interagissent entre elles et s’adaptent aux contraintes de leur milieu.</p>
+        </section>
+
+        <section id="caract">
+            <h2>Les bêtes et leurs caractéristiques</h2>
+            <p>Les bêtes sont des entités ayant des caractéristiques qui influencent leur comportement et leur survie. Elles ont un ensemble de besoins : se nourrir, se reproduire et éviter les dangers de l'environnement. La gestion de ces besoins est au cœur de la simulation.</p>
+            <p>Il existe plusieurs types de bêtes selon leur régime alimentaire :</p>
+            <p><strong>Herbivores :</strong> Ces bêtes se nourrissent principalement des éléments de nourriture présents sur la grille. Elles sont plus enclines à chercher des ressources végétales pour se maintenir en vie.</p>
+            <p><strong>Carnivores :</strong> Les carnivores attaquent d'autres bêtes pour se nourrir. Leur comportement est plus agressif, car leur survie dépend de la capture d'autres entités vivantes.</p>
+            <p><strong>Omnivores :</strong> Ces bêtes ont la possibilité de se nourrir à la fois de nourriture présente sur la grille et d'attaquer d'autres bêtes. Cela les rend plus flexibles et leur permet de s'adapter à divers environnements.</p>
+        </section>
+
+        <section id="envirdyna">
+            <h2>Un environnement dynamique</h2>
+            <p>La simulation se déroule sur une grille où chaque case peut contenir des obstacles naturels. Ces obstacles affectent les déplacements et les interactions des bêtes avec leur environnement.</p>
+            <p><strong>Forêt :</strong> Réduit la vision des bêtes, rendant leur navigation plus difficile. Les bêtes ont plus de mal à repérer leurs proies ou leurs partenaires de reproduction.</p>
+            <p><strong>Rivière :</strong> Diminue l'énergie des bêtes lorsqu'elles la traversent. Si elles y passent trop souvent, elles risquent de perdre toute leur énergie et de mourir.</p>
+            <p><strong>Montagne :</strong> Ralentit les déplacements des bêtes et augmente leur fatigue. Se déplacer dans cette zone demande plus d'énergie et peut impacter leur survie à long terme.</p>
+        </section>
+
+        <section id="mecasimu">
+            <h2>Les mécanismes de la simulation</h2>
+            <p>La simulation repose sur des mécanismes complexes qui régissent la survie et l’évolution des bêtes :</p>
+            <p>Les bêtes se déplacent aléatoirement dans la grille. Leur mouvement est influencé par leur vision limitée (rayon de 4 cases autour d'elles). Lorsqu'elles rencontrent une autre bête, plusieurs interactions peuvent avoir lieu :</p>
+            <p><strong>Combat :</strong> Si les deux bêtes sont du même sexe, un combat peut avoir lieu. L'issue du combat dépend de leurs caractéristiques d'attaque et de défense.</p>
+            <p><strong>Reproduction :</strong> Si les bêtes sont de sexe opposé, elles peuvent se reproduire. La progéniture héritera des caractéristiques des parents, mais des mutations aléatoires peuvent aussi influencer ses traits.</p>
+            <p>Le cycle de vie des bêtes se divise en plusieurs étapes : elles naissent, grandissent, consomment de l’énergie, interagissent avec leur environnement, puis meurent lorsque leur énergie atteint zéro.</p>
+        </section>
+
+        <section id="role">
+            <h2>Rôle de l’utilisateur</h2>
+            <p>L'utilisateur joue un rôle central dans cette simulation. Il peut configurer l'environnement avant de commencer le jeu. Cela inclut la taille de la grille, le nombre initial de bêtes, et les types d'obstacles qui influenceront la dynamique du jeu. Une fois la simulation lancée, l'utilisateur peut suivre en temps réel l'évolution des bêtes, leur état de santé, leurs déplacements et leur reproduction. Il a également accès à des statistiques détaillées à chaque tour de simulation.</p>
+        </section>
+
+        <footer>
+            <div>2025 Simulation Bêtes | Projet réalisé par Lisa Ouyahia &amp; Ines Yousfi</div>
+            <nav>
+                <a href="index.html">1</a>
+                <a href="projet.html">2</a>
+                <a href="conception.html">3</a>
+                <a href="equipe.html">4</a>
+                <a href="techniques.html">5</a>
+                <a href="resultats.html">6</a>
+            </nav>
+        </footer>
+
+    </main>
+
+</body>
+</html>

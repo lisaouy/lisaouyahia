@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Présentation de la conception du projet Simulation Bêtes."/>
+    <title>Simulation Bêtes - Conception</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="icon" type="image/jpeg" href="images/ladybugR.png"/>
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <img src="images/ladybugR.png" alt="Logo Simulation Bêtes" class="logo"/>
+        </a>
+        <h1>Conception et Design</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projet.html">Le Projet</a></li>
+                <li><a href="conception.html">Conception</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="techniques.html">Techniques</a></li>
+                <li><a href="resultats.html">Résultats</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="left-menu">
+            <ul>
+                <li><a href="#etape">Les premières étapes de conception</a></li>
+                <li><a href="#model">Modélisation en cours</a></li>
+                <li><a href="#classesprojet">Les principales classes du projet</a></li>
+                <li><a href="#perspec">Perspectives</a></li>
+            </ul>
+        </div>
+
+        <section id="etape">
+            <h2>Les premières étapes de conception</h2>
+            <p>Pour réaliser le projet <strong>Simulation Bêtes</strong>, nous avons suivi une démarche de conception rigoureuse. Nous avons commencé par établir un <strong>cahier des charges</strong>, définissant les fonctionnalités attendues, les contraintes techniques et les objectifs de la simulation.</p>
+            <p>Vous pouvez consulter notre cahier des charges en cliquant sur le lien suivant : <a href="images/cahierCharges.pdf" target="_blank">Télécharger le cahier des charges</a>.</p>
+        </section>
+
+        <section id="model">
+            <h2>Modélisation en cours</h2>
+            <p>Actuellement, nous sommes en train de travailler sur la conception du diagramme de classes, qui constitue l’un des éléments clés de notre modélisation. Ce diagramme permet de structurer les interactions entre les différentes entités du projet.</p>
+        </section>
+
+        <section id="classesprojet">
+            <h2>Les principales classes du projet</h2>
+            <p>Notre architecture repose sur plusieurs classes essentielles, qui modélisent les éléments fondamentaux de la simulation :</p>
+            <ul>
+                <li><strong>Bête :</strong> représente une créature évoluant sur la grille. Elle peut être de trois types : 
+                    <ul>
+                        <li><em>herbivore :</em> qui se nourrit principalement des ressources présentes sur la grille.</li>
+                        <li><em>carnivore :</em> qui attaque d’autres bêtes pour survivre.</li>
+                        <li><em>omnivore :</em> qui peut à la fois consommer de la nourriture et attaquer d’autres bêtes.</li>
+                    </ul>
+                </li>
+                <li><strong>Map :</strong> constitue l’environnement de simulation où évoluent les bêtes, définissant la structure globale de la grille.</li>
+                <li><strong>Case :</strong> représente un élément individuel de la grille, pouvant contenir différents objets comme de la nourriture, des obstacles ou des bêtes.</li>
+                <li><strong>Nourriture :</strong> est une ressource essentielle pour les herbivores et omnivores, influençant directement leur survie et leur capacité à se reproduire.</li>
+                <li><strong>Obstacle :</strong> regroupe plusieurs éléments qui influencent les déplacements et interactions des bêtes. Les forêts peuvent ralentir ou cacher certaines espèces, les rivières agissent comme des barrières naturelles pour certaines bêtes, et les montagnes sont infranchissables pour la plupart des créatures.</li>
+            </ul>
+        </section>
+        
+
+        <section id="perspec">
+            <h2>Perspectives</h2>
+            <p>La conception du projet est toujours en cours, et nous affinons progressivement notre modèle pour qu’il soit le plus fidèle possible aux objectifs définis. Nous continuerons à structurer et optimiser notre architecture avant de passer à l’implémentation complète.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div>2025 Simulation Bêtes | Projet réalisé par Lisa Ouyahia &amp; Ines Yousfi</div>
+        <nav>
+            <a href="index.html">1</a>
+            <a href="projet.html">2</a>
+            <a href="conception.html">3</a>
+            <a href="equipe.html">4</a>
+            <a href="techniques.html">5</a>
+            <a href="resultats.html">6</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
